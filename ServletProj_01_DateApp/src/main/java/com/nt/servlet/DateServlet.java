@@ -23,6 +23,7 @@ public class DateServlet extends GenericServlet{
 		//Write b logic
 		d=new Date();
 		pw.println("<h1 style='color:red;text-align:center;'>Date And Time::"+d+"</h1>");
+		pw.println("<a href='http://localhost:8081/ServletProj_01_DateApp/welcome.html'>Home</a>");
 		//close stream
 		pw.close();
 		
